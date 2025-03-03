@@ -24,7 +24,7 @@ class BinaryExprAST : public ExprAST {
     std::unique_ptr<ExprAST> lhs, rhs;
 
    public:
-    BinaryExprAST(char op, std::unique_ptr<ExprAST>, std::unique_ptr<ExprAST>);
+    BinaryExprAST(char, std::unique_ptr<ExprAST>, std::unique_ptr<ExprAST>);
 };
 
 class CallExprAST : public ExprAST {
