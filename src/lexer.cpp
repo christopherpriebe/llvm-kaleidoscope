@@ -1,7 +1,7 @@
 #include <string>
 
 /*
- The lexer return an ASCII-valued token [0-255] if it is an unknown character, 
+ The lexer return an ASCII-valued token [0-255] if it is an unknown character,
  otherwise one of these for known token types.
 */
 enum Token {
